@@ -34,3 +34,23 @@ var johnLennonFacts = function (factsArray) {
 };
 
 johnLennonFacts(facts);
+
+var iLoveTheBeatles = function (num){
+	var arr = [];
+	num++;
+
+	if (num === 18) {
+		return("I love the Beatles!");
+	}
+
+	var i = 0;
+	do {
+		arr.push("I love the Beatles!");
+		i++;
+
+	} while (i < num);
+
+	return(arr);
+}
+
+iLoveTheBeatles(2);
